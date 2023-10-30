@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:wisata_candi/widget/profile_info_item.dart';
-
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
 
@@ -9,13 +8,13 @@ class ProfileScreen extends StatefulWidget {
 }
 
 class _ProfileScreenState extends State<ProfileScreen> {
-  //TODO 1: Deklarasi variable (state) yangdibutuhkan
+  // TODO: 1. Deklarasi Variable (state) yang dibutuhkan
   bool isSignIn = true;
-  String fullName = "";
-  String userName = "";
-  int favoriteCandiCount = 0;
+  String fullName = "VictoriaVR";
+  String userName = "Victoria";
+  int favoriteCandiCount = 2;
 
- @override
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(
@@ -46,7 +45,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                               AssetImage('images/placeholder_image.png'),
                         ),
                       ),
-                     
+                      
                     ],
                   ),
                 ),
@@ -111,15 +110,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     SizedBox(
                       height: 20,
                     ),
-                         TextButton(
-                            onPressed: () {},
-                            child: Text('Sign Out'),
-                            style: TextButton.styleFrom(
-                                backgroundColor: Colors.amber,
-                                padding: const EdgeInsets.all(20),
-                                elevation: 5),
-                          )
-                         
+          
                   ],
                 ),
               ),

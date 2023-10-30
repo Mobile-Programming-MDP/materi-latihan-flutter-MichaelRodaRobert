@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 class ProfileInfoItem extends StatelessWidget {
   final IconData icon;
   final String label;

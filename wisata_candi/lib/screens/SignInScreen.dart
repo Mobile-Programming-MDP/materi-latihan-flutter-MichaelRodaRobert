@@ -2,19 +2,10 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:wisata_candi/widget/profile_info_item.dart';
 
-class SignInScreen extends StatelessWidget {
+class SignInScreen extends StatefulWidget {
   SignInScreen({super.key});
 
-  //TODO 1. Deklarasi Variabel
-
-  final TextEditingController _usernameController = TextEditingController();
-  final TextEditingController _passwordController = TextEditingController();
-
-  String _errorText = ' ';
-  bool _isSignIn = false;
-  bool _obsurcePassword = true;
-
- @override
+  @override
   State<SignInScreen> createState() => _SignInScreenState();
 }
 
