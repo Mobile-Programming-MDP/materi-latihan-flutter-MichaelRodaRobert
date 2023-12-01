@@ -2,7 +2,7 @@ import 'package:encrypt/encrypt.dart' as encrypt;
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:wisata_candi/widgets/profile_info_item.dart';
+import 'package:wisata_candi/widget/profile_info_item.dart';
 
 class SignInScreen extends StatefulWidget {
   SignInScreen({super.key});

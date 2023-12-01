@@ -8,7 +8,7 @@ import 'package:wisata_candi/screens/search_screen.dart';
 import 'package:wisata_candi/screens/sign_in.dart';
 import 'package:wisata_candi/screens/sign_up.dart';
 import 'package:wisata_candi/screens/home_screen.dart';
-import 'package:wisata_candi/widgets/item_card.dart';
+import 'package:wisata_candi/widget/item_card.dart';
 
 void main() {
   runApp(const MyApp());
